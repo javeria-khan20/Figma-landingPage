@@ -1,0 +1,651 @@
+@font-face {
+    font-family: Poppins;
+    src: url(../assets/fonts/Poppins-Regular.ttf);
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.main-container {
+    width: 1345px;
+    margin: auto;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    min-height: 90px;
+    background-color: #FAFAFA;
+    margin-top: 34px;
+    border-radius: 70px;
+}
+
+.logo {
+    flex-grow: 1;
+    padding-left: 70px;
+}
+
+.links {
+    background-color: #FEFEFF;
+    flex-grow: 2;
+    min-height: 60px;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.links a,
+.btns a {
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: Poppins;
+}
+
+
+.links a:hover {
+    color: rgb(88, 167, 184);
+}
+
+.btns a:hover {
+    color: rgb(88, 167, 184);
+}
+
+.btns {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    min-height: 60px;
+}
+
+.btn {
+    width: 164px;
+    height: 60px;
+    border: 1px solid #BEBEBE;
+    border-radius: 40px;
+    padding: 15px 35px 15px 35px;
+}
+
+.btn:hover {
+    background-color: rgb(0, 0, 0);
+    border: none;
+}
+
+/* Hero-section */
+
+.hero-main {
+    min-width: 100%;
+    height: 617px;
+    background: linear-gradient(90deg, #C1DEE8 0%, #FBD9B9 100%);
+    display: flex;
+    margin-top: 40px;
+}
+
+.content {
+    min-width: 41.5%;
+}
+
+.content .pera-one {
+    margin-top: 100px;
+    margin-left: 76px;
+    font-family: Poppins;
+    font-weight: 400px;
+    font-size: 16px;
+}
+
+.content .pera-two {
+    margin-top: 15px;
+    margin-left: 76px;
+    font-family: Poppins;
+    font-weight: 400px;
+    font-size: 16px;
+    width: 450px;
+}
+
+.content h1 {
+    margin-top: 15px;
+    margin-left: 76px;
+    font-family: Poppins;
+    font-weight: 600px;
+    font-size: 45px;
+}
+
+.house-img img {
+    height: 700px;
+    width: 770px;
+}
+
+.input {
+    position: relative;
+    top: 18px;
+    left: 76px;
+    width: 438px;
+    height: 60px;
+    display: flex;
+}
+
+.input-bar {
+    position: absolute;
+    top: 0;
+    width: 80%;
+    height: 60px;
+    border-radius: 40px;
+    outline: none;
+    border: none;
+    font-family: Poppins;
+    font-weight: 600px;
+    font-size: 18px;
+    padding-left: 17px;
+}
+
+.input a {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 32%;
+    height: 60px;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    border-radius: 40px;
+    padding: 20px;
+    font-family: Poppins;
+}
+
+.input a:hover {
+    background-color: rgb(88, 167, 184);
+}
+
+/* Steps-section */
+
+.steps-main .steps-pera {
+    margin-top: 125px;
+    font-family: Poppins;
+    text-align: center;
+    font-size: 20px;
+}
+
+.steps-main .steps-heading {
+    margin-top: 6px;
+    font-family: Poppins;
+    text-align: center;
+    font-size: 46px;
+}
+
+
+.all-steps {
+    height: 225px;
+    margin: 60px 66px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.all-steps .steps {
+    width: 329px;
+    height: 225px;
+    flex-wrap: wrap;
+}
+
+.steps img {
+    margin: 10px 10px;
+}
+
+
+/* Project-section */
+
+.all-pro {
+    height: 438px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.all-pro .projects {
+    padding: 5px;
+    margin: auto;
+}
+
+.projects img {
+    height: 400px;
+    width: 400px;
+}
+
+.pro .pro-pera {
+    margin: 125px 0px 0px 25px;
+    font-family: Poppins;
+    font-size: 20px;
+}
+
+.pro .pro-heading {
+    margin: 6px 0px 0px 25px;
+    font-family: Poppins;
+    font-size: 46px;
+}
+
+/* Booking-section */
+
+.book {
+    display: flex;
+    justify-content: center;
+    margin-top: 55px;
+}
+
+.book-heading {
+    width: 550px;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 36px;
+}
+
+.book-main {
+    width: 90%;
+    height: 577px;
+    display: flex;
+    margin: auto;
+    margin-top: 40px;
+    font-family: Poppins;
+}
+
+.book-con .book-head {
+    padding: 25px 0px;
+    font-size: 30px;
+    width: 50%;
+}
+
+.book-con .book-pera {
+    font-size: 18px;
+    width: 75%;
+}
+
+.book-btns {
+    position: relative;
+    top: 25px;
+    width: 300px;
+    height: 60px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.b-btn1 {
+    height: 60px;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    border-radius: 40px;
+    padding: 20px;
+    font-family: Poppins;
+}
+
+.b-btn1:hover{
+    background-color: rgb(88, 167, 184);
+}
+
+.b-btn2 {
+    height: 60px;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    border-radius: 40px;
+    padding: 20px;
+    border: 1px solid black;
+    font-family: Poppins;
+}
+
+.b-btn2:hover{
+    background-color: rgb(88, 167, 184);
+    color: white;
+    border: none;
+}
+
+.nums {
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    font-size: 23px;
+    margin-top: 80px;
+}
+
+/* Footer-section */
+.p-house {
+    position: static;
+    bottom: 0;
+}
+
+/* Media quries */
+
+@media only screen and (max-width:1350px) {
+    .main-container {
+        width: 100%;
+    }
+
+    .logo {
+        padding: 0;
+    }
+
+    .header {
+        flex-direction: column;
+        gap: 1em;
+    }
+
+    .links {
+        width: 90%;
+    }
+
+    .btns {
+        gap: 1em;
+    }
+
+    /* step-section */
+
+    .step-con {
+        width: 100%;
+        margin: 10px 0px;
+    }
+}
+
+@media only screen and (max-width:555px) {
+    .header {
+        flex-direction: column;
+        gap: 1em;
+    }
+
+    .links {
+        flex-direction: column;
+        width: 90%;
+        gap: 1em;
+        padding: 1em 0;
+    }
+
+    .btns {
+        gap: 1em;
+        flex-direction: column;
+    }
+
+    /* Hero-Section */
+    .content {
+        margin: auto;
+    }
+
+    .content .pera-one {
+        font-size: 14px;
+        margin-left: 0px;
+    }
+
+    .content .pera-two {
+        margin-left: 0px;
+        font-size: 14px;
+    }
+
+    .content h1 {
+        margin-left: 0px;
+        font-size: 30px;
+    }
+
+    .input {
+        position: relative;
+        left: 0;
+    }
+
+    .house-img img {
+        height: 100px;
+        width: 100px;
+    }
+
+}
+
+
+@media only screen and (max-width:1233px) {
+    .book .book-heading {
+        margin-top: 400px;
+    }
+
+    .book-main img {
+        margin-top: 15px;
+    }
+}
+
+/* Hero-Section */
+@media only screen and (max-width:1200px) {
+    .hero-main {
+        height: 1050px;
+        flex-direction: column;
+    }
+
+    .content {
+        margin: auto;
+    }
+
+    .house-img {
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width:1122px) {
+    .pro .pro-pera {
+        margin-top: 200px;
+    }
+
+    .book-main {
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .p-house {
+        margin-top: 500px;
+    }
+}
+
+@media only screen and (max-width:826px) {
+    .book .book-heading {
+        margin-top: 800px;
+    }
+
+    .content h1 {
+        width: 450px;
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width:892px) {
+    .p-house {
+        margin-top: 570px;
+    }
+}
+
+
+@media only screen and (max-width:792px) {
+    .hero-main {
+        width: 100%;
+        height: 1050px;
+        flex-direction: column;
+    }
+
+    .content {
+        margin: auto;
+    }
+
+    .house-img img {
+        height: 400px;
+        width: 400px;
+    }
+
+    .pro .pro-pera {
+        margin-top: 500px;
+    }
+}
+
+@media only screen and (max-width:785px) {
+    .hero-main {
+        width: 100%;
+        height: 650px;
+        flex-direction: column;
+    }
+
+    .content {
+        margin: auto;
+    }
+
+    .house-img img {
+        height: 250px;
+        width: 250px;
+    }
+
+
+}
+
+@media only screen and (max-width:684px) {
+    .nums h1 {
+        font-size: 30px;
+    }
+
+    .nums p {
+        font-size: 16px;
+    }
+
+    .nums {
+        width: 300px;
+    }
+
+    .book-main img {
+        height: 350px;
+        width: 350px;
+    }
+
+    .p-house {
+        margin-top: 340px;
+    }
+}
+
+@media only screen and (max-width:457px) {
+    .content .pera-one {
+        width: 70%;
+        margin: auto;
+    }
+
+    .content .pera-two {
+        width: 70%;
+        margin: auto;
+    }
+
+    .content h1 {
+        width: 75%;
+        margin: auto;
+    }
+
+    .input {
+        width: 250px;
+    }
+
+    .input {
+        margin: auto;
+    }
+
+    .input a {
+        width: 32%;
+        height: 60px;
+        text-decoration: none;
+        color: white;
+        background-color: black;
+        border-radius: 40px;
+        padding: 20px 10px;
+        font-family: Poppins;
+        font-size: 9px;
+    }
+
+    .steps-main {
+        height: 0px;
+    }
+
+    .pro .pro-pera {
+        margin-top: 1480px;
+    }
+
+    .projects img {
+        height: 300px;
+        width: 300px;
+    }
+
+    .all-pro {
+        margin: 0;
+    }
+}
+
+@media only screen and (max-width:454px) {
+    .pro{
+        margin-top: 100px;
+    }
+}
+
+@media only screen and (max-width:382px) {
+    .book-main img {
+        height: 270px;
+        width: 270px;
+    }
+
+    .nums {
+        width: 200px;
+    }
+
+    .nums p {
+        font-size: 14px;
+    }
+
+    .book-btns {
+        width: 220px;
+        font-size: 11px;
+    }
+}
+
+/* Steps media quries */
+
+@media only screen and (max-width:447px) {
+    .steps-main h1 {
+        font-size: 25px;
+    }
+
+    .all-steps .steps {
+        margin: 10px;
+        height: 400px;
+    }
+}
+
+@media only screen and (max-width:453px) {
+    .all-pro {
+        margin-top: 100px;
+    }
+
+    .book h1 {
+        margin-top: 2440px;
+    }
+
+    .book {
+        margin-top: -250px;
+    }
+
+}
+
+@media only screen and (max-width:322px) {
+    .projects img {
+        height: 200px;
+        width: 200px;
+    }
+}
+
+@media only screen and (max-width:298px) {
+    .book {
+        margin-top: -550px;
+    }
+}
+
+@media only screen and (max-width:578px) {
+    .p-house {
+        margin-top: 550px;
+    }
+}
